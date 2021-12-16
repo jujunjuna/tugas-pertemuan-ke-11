@@ -81,10 +81,11 @@ elif c == ('ubah'):
              data[nama]= nim,nilaitugas,nilaiuts,nilaiuas,nilaiakhir
              print("data berhasil di perbarui!")
 ```
+
 berikut adalah outputnya memanggil fuction tambah: \
 [tambah](gambar/tambah.png) \
 ouput dari tampilkan: \
-[tampilkan](gambar/tampilkan.png)
+[tampilkan](gambar/tampilkan.png) \
 output dari hapus dan ubah: \
 [ubah](hapusdanubah.png)
 
