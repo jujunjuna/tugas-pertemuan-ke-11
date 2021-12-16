@@ -16,17 +16,17 @@ berikut tampilan program dan outputnya di visual studio\
 ![soal](gambar/soal2.png)
 # jawab
 flowchart \
-![flowchart](gambar/flowchart) \
+![flowchart](gambar/flowchart.png) \
 program\
-![program](gambar/program1.png) \
+![program](gambar/program.png) \
 ![program2](gambar/program2.png)\
-penjelasan program : \
-1. membuat looping \
+penjelasan program : 
+1. membuat looping 
 ```while True:
     c = input('tambah? tampilkan? hapus? ubah?: ')
 ```
 2. membuat if dan function: \
-    if c == ('tambah'):
+```if c == ('tambah'):
         def tambah():
             print('tambah mahasiswa: ')
             nama = input("masukan nama: ")
@@ -36,8 +36,9 @@ penjelasan program : \
             nilaiuas = int(input('masukan nilai uas: '))
             nilaiakhir = (0.30 * nilaitugas) + (0.35 * nilaiuts) + (0.35 * nilaiuas)
             data[nama]= nim,nilaitugas,nilaiuts,nilaiuas,nilaiakhir
-3. elif dan function tampilkan: \
-    elif c == ('tampilkan'):
+```
+3. elif dan function tampilkan: 
+```elif c == ('tampilkan'):
         if data.items():
             def tampilkan():
              print("\n                      DAFTAR NILAI MAHASISWA                    ")
@@ -49,8 +50,9 @@ penjelasan program : \
                  i += 1
                  print(f"""| {i}  |     {x[0]}    | {x[1][0]} |   {x[1][1]}  |  {x[1][2]}  |  {x[1][3]}    |  {x[1][4]}  |""")
             tampilkan()
-4. elif dan fuction hapus : \
-    elif c == ("hapus"):
+```
+4. elif dan fuction hapus : 
+```elif c == ("hapus"):
         def hapus():
          nama = input('masukan nama yang akan dihapus: ')
          if nama in data.keys():
@@ -59,8 +61,9 @@ penjelasan program : \
          else:
              print("data mahasiswa tidak terdaftar")
         hapus()
-5. elif dan fuction ubah: \
-    elif c == ('ubah'):
+```
+5. elif dan fuction ubah: 
+```elif c == ('ubah'):
         def ubah():
          print('mengubah data mahasiswa')
          nama = input('masukan nama: ')
@@ -72,6 +75,7 @@ penjelasan program : \
              nilaiakhir = (0.30 * nilaitugas) + (0.35 * nilaiuts) + (0.35 * nilaiuas)
              data[nama]= nim,nilaitugas,nilaiuts,nilaiuas,nilaiakhir
              print("data berhasil di perbarui!")
+```
 berikut adalah outputnya memanggil fuction tambah: \
 [tambah](gambar/tambah.png) \
 ouput dari tampilkan: \
