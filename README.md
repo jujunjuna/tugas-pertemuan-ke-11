@@ -87,5 +87,5 @@ berikut adalah outputnya memanggil fuction tambah: \
 ouput dari tampilkan: \
 ![tampilkan](gambar/tampilkan.png) \
 output dari hapus dan ubah: \
-![ubah](hapusdanubah.png)
+![ubah](gambar/hapusdanubah.png)
 
