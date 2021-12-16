@@ -22,11 +22,13 @@ program\
 ![program2](gambar/program2.png)\
 penjelasan program : 
 1. membuat looping 
-```while True:
+```
+while True:
     c = input('tambah? tampilkan? hapus? ubah?: ')
 ```
 2. membuat if dan function: \
-```if c == ('tambah'):
+```
+if c == ('tambah'):
         def tambah():
             print('tambah mahasiswa: ')
             nama = input("masukan nama: ")
@@ -38,7 +40,8 @@ penjelasan program :
             data[nama]= nim,nilaitugas,nilaiuts,nilaiuas,nilaiakhir
 ```
 3. elif dan function tampilkan: 
-```elif c == ('tampilkan'):
+```
+elif c == ('tampilkan'):
         if data.items():
             def tampilkan():
              print("\n                      DAFTAR NILAI MAHASISWA                    ")
@@ -52,7 +55,8 @@ penjelasan program :
             tampilkan()
 ```
 4. elif dan fuction hapus : 
-```elif c == ("hapus"):
+```
+elif c == ("hapus"):
         def hapus():
          nama = input('masukan nama yang akan dihapus: ')
          if nama in data.keys():
@@ -63,7 +67,8 @@ penjelasan program :
         hapus()
 ```
 5. elif dan fuction ubah: 
-```elif c == ('ubah'):
+```
+elif c == ('ubah'):
         def ubah():
          print('mengubah data mahasiswa')
          nama = input('masukan nama: ')
