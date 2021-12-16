@@ -83,9 +83,9 @@ elif c == ('ubah'):
 ```
 
 berikut adalah outputnya memanggil fuction tambah: \
-[tambah](gambar/tambah.png) \
+![tambah](gambar/tambah.png) \
 ouput dari tampilkan: \
-[tampilkan](gambar/tampilkan.png) \
+![tampilkan](gambar/tampilkan.png) \
 output dari hapus dan ubah: \
-[ubah](hapusdanubah.png)
+![ubah](hapusdanubah.png)
 
